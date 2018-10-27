@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="AnchorPane" maxWidth="1.7976931348623157E308" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="laos.FXMLDocumentController">
+   <children>
+      <Pane fx:id="pane" layoutX="0.0" prefHeight="53.0" prefWidth="800.0" style="-fx-background-color: #00bcd4; -fx-min-width: 100%;" AnchorPane.bottomAnchor="547.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <children>
+            <JFXButton fx:id="buttonInstaller" layoutX="694.0" layoutY="11.0" ripplerFill="#e8e8e8" style="-fx-border-color: #ffffff;" text="Installer" textFill="WHITE">
+               <font>
+                  <Font name="Montserrat Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="22.0" layoutY="16.0" text="LaosManager" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Montserrat Medium" size="20.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="7.0" right="7.0" top="5.0" />
+         </padding>
+      </Pane>
+      <JFXTextField fx:id="fieldSearch" focusColor="#00bcd4" layoutX="90.0" layoutY="185.0" prefHeight="25.0" prefWidth="497.0" promptText="Cari disini ....." style="-fx-background-color: transparent;" unFocusColor="#dadada">
+         <font>
+            <Font name="Montserrat Regular" size="9.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="btnSearch" buttonType="RAISED" layoutX="595.0" layoutY="184.0" style="-fx-background-color: #00bcd4;" text="Cari" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Montserrat Regular" size="14.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </JFXButton>
+   </children>
+</AnchorPane>
